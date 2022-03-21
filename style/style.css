@@ -1,0 +1,59 @@
+.image {
+  position: relative;
+  left: 120px;
+  right: 88.89%;
+  top: 8px;
+  bottom: 8px;
+  display: flex;
+  margin-right: 8px;
+  /* background: url("/header/iamage.png");   */
+  /* border: 1px solid black; */
+}
+.food-delivery p {
+  /* position: static; */
+  width: 126px;
+  height: 30px;
+
+  /* left: 5px; */
+  /* top: 5px; */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  /* font-size: 18px; */
+  /* line-height: 27px; */
+  /* border: 1px solid black; */
+}
+header {
+  position: relative;
+  width: 100%;
+  height: 56px;
+  /* left: 10%;
+  right: 10%; */
+  top: -0.4px;
+  /* padding: 10px; */
+  border: 1px solid black;
+  display: flex;
+}
+.food-delivery {
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* position: relative; */
+  left: 170px;
+  right: 60.67%;
+  top: 14.29%;
+  bottom: 14.29%;
+  /* right: 50px; */
+  /* align-items: flex-start; */
+  padding: 0px;
+  /* border: 1px solid black; */
+}
+body {
+  margin: 0%;
+  padding: 0%;
+}
+.logo {
+  display: flex;
+}
+* {
+  box-sizing: border-box;
+}
