@@ -16,7 +16,7 @@
 .logo-icon {
   position: relative;
   display: inline;
-  background-image: url("/ProjectSumiya/header/iamage.png");
+  background-image: url("/header/iamage.png");
   background-repeat: no-repeat;
   width: 40px;
   top: 8px;
@@ -70,7 +70,7 @@
   left: 25.25%;
   margin: 10px;
   border: 1px solid #f17228;
-  background-image: url("/ProjectSumiya/header/.png");
+  background-image: url("/header/.png");
   background-repeat: no-repeat;
   background-position: center;
   background-position: 10px;
@@ -95,12 +95,12 @@
   text-align: center;
 }
 .busket {
-  background-image: url(/ProjectSumiya/header/busket\ icon.png);
+  background-image: url(/header/busket\ icon.png);
   background-repeat: no-repeat;
   background-position: -1px;
 }
 .user-icon {
-  background-image: url(/ProjectSumiya/header/user\ icon.png);
+  background-image: url(/header/user\ icon.png);
   background-repeat: no-repeat;
   background-position: -1px;
 }
