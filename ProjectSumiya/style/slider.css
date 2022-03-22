@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Poppins:wght@400;500;600;700&display=swap");
+.sliderBackground {
+  background-image: url("/slider/base.png");
+  background-repeat: no-repeat;
+  /* width: 100%;
+  height: 496px;
+  left: 0%;
+  top: 56px; */
+}
+/* .slider {
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.01em;
+  justify-content: space-between;
+} */
+
+.slider-text {
+  width: 383px;
+  right: 222px;
+  line-height: 10px;
+  /* margin-block-end: 20px; */
+  /* padding-top: 10px; */
+  /* text-align: right; */
+}
+.slider span {
+  border-top: 2px solid rgba(241, 114, 40, 0.6);
+  display: block;
+  padding-bottom: 20px;
+}
+.slider-text h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 90%;
+  color: #f17228;
+  padding-bottom: 20px;
+}
+.slider p {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 120%;
+  /* or 26px */
+
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.01em;
+}
+#slider {
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+  align-items: center;
+}

@@ -1,8 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 * {
   box-sizing: border-box;
   margin: 0%;
 }
-.logo-cont {
+.header {
   border: 0px solid black;
   display: flex;
   height: 56px;
@@ -10,56 +11,66 @@
   margin: 0%;
   background: #fefefe;
   box-shadow: 0px 2px 4px rgba(241, 114, 40, 0.05);
-  font-family: "Poppins";
+  justify-content: space-between;
+  align-items: center;
+
   /* justify-content: space-around; */
+}
+.container-logo {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
 }
 .logo-icon {
   position: relative;
-  display: inline;
-  background-image: url("/ProjectSumiya/header/iamage.png");
-  background-repeat: no-repeat;
-  width: 40px;
-  top: 8px;
-  height: 40px;
-  left: 11.3%;
+  display: inline-block;
+  align-items: center;
 }
 .food-delivery {
-  display: inline;
+  display: inline-block;
   position: relative;
-  left: 11%;
-  padding: 13px;
+  /* text-align: center; */
+  /* left: 11%; */
+  /* padding: 13px; */
   color: #f17228;
   font-family: "Poppins";
-  font-style: normal;
+  /* font-style: normal; */
   font-weight: 700;
+  font-weight: bold;
   font-size: 18px;
-  line-height: 27px;
+  /* line-height: 27px; */
 }
 .cont-menu {
   display: flex;
   position: relative;
-  justify-content: center;
+  justify-content: space-between;
   line-height: 24px;
-  padding: 13px;
-  left: 20%;
+  /* padding: 13px; */
+  /* left: 20%; */
   align-items: center;
 }
 .cont-menu div {
   justify-content: space-between;
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500, medium;
+  font-weight: medium;
   font-size: 16px;
   line-height: 24px;
   margin: 0px 10px;
   align-items: center;
 }
-.menu-1 {
+/* .menu-1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+} */
 
 .cont-menu div:hover {
   color: #f17228;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-weight: bold;
 }
 .search {
   box-sizing: border-box;
@@ -67,10 +78,10 @@
   border-radius: 10px;
   width: 235px;
   height: 32px;
-  left: 25.25%;
-  margin: 10px;
+  /* left: 25.25%; */
+  /* margin: 10px; */
   border: 1px solid #f17228;
-  background-image: url("/ProjectSumiya/header/.png");
+  background-image: url("/header/.png");
   background-repeat: no-repeat;
   background-position: center;
   background-position: 10px;
@@ -84,7 +95,7 @@
   position: relative;
   align-items: center;
   color: #f17228;
-  left: 30%;
+  /* left: 30%; */
 }
 .login-busket div {
   padding: 18px;
@@ -95,12 +106,19 @@
   text-align: center;
 }
 .busket {
-  background-image: url(/ProjectSumiya/header/busket\ icon.png);
+  background-image: url(/header/busket\ icon.png);
   background-repeat: no-repeat;
   background-position: -1px;
 }
 .user-icon {
-  background-image: url(/ProjectSumiya/header/user\ icon.png);
+  background-image: url(/header/user\ icon.png);
   background-repeat: no-repeat;
   background-position: -1px;
+}
+
+.mainContent {
+  /* background-color: aquamarine; */
+  max-width: 1500px;
+  margin: auto;
+  padding: 20px;
 }
