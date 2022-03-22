@@ -17,13 +17,14 @@
 .container-logo {
   display: flex;
   text-align: center;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 .logo-icon {
   position: relative;
   display: inline-block;
   align-items: center;
+  padding-right: 10px;
 }
 .food-delivery {
   display: inline-block;
