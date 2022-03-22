@@ -2,26 +2,12 @@
 .sliderBackground {
   background-image: url("/slider/base.png");
   background-repeat: no-repeat;
-  /* width: 100%;
   height: 496px;
-  left: 0%;
-  top: 56px; */
 }
-/* .slider {
-  display: flex;
-  align-items: center;
-  text-align: right;
-  letter-spacing: 0.01em;
-  justify-content: space-between;
-} */
-
 .slider-text {
   width: 383px;
   right: 222px;
   line-height: 10px;
-  /* margin-block-end: 20px; */
-  /* padding-top: 10px; */
-  /* text-align: right; */
 }
 .slider span {
   border-top: 2px solid rgba(241, 114, 40, 0.6);
@@ -43,8 +29,6 @@
   font-weight: 700;
   font-size: 22px;
   line-height: 120%;
-  /* or 26px */
-
   display: flex;
   align-items: center;
   text-align: right;
@@ -55,4 +39,42 @@
   justify-content: space-between;
   text-align: right;
   align-items: center;
+}
+.pic {
+  display: flex;
+  position: relative;
+}
+.pic-1 {
+  position: absolute;
+  width: 345px;
+  height: 311px;
+  left: 182.75px;
+  z-index: 1;
+  top: 64.46px;
+}
+.pic-2 {
+  position: relative;
+  width: 305px;
+  height: 369.08px;
+  left: 60.25px;
+  top: 15.46px;
+}
+.arrow {
+  content: " \2192";
+  position: absolute;
+  width: 60px;
+  height: 40px;
+  right: 120px;
+  top: 288px;
+}
+.arrow span {
+  content: " \2192";
+  width: 60px;
+  height: 40px;
+  right: 120px;
+  top: 288px;
+  border: 2px solid #f17228;
+  box-sizing: border-box;
+  border-radius: 30px;
+  background-color: aliceblue;
 }

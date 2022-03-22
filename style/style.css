@@ -80,13 +80,15 @@
   position: relative;
   align-items: center;
   color: #f17228;
+  
 }
 .login-busket div {
   padding: 18px;
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 14px;
+  font-family: "Poppins";
+  font-weight: 500px;
   text-align: center;
 }
 .busket {
