@@ -9,7 +9,7 @@
   right: 222px;
   line-height: 10px;
 }
-.slider span {
+#span {
   border-top: 2px solid rgba(241, 114, 40, 0.6);
   display: block;
   padding-bottom: 20px;
@@ -59,26 +59,15 @@
   left: 60.25px;
   top: 15.46px;
 }
-.arrow {
-  /* content: " \2192"; */
-  position: absolute;
-  width: 60px;
-  height: 40px;
-  right: 120px;
-  top: 288px;
-}
-.arrow span {
-  z-index: 1;
-
-  width: 60px;
-  height: 40px;
-  right: 120px;
-  top: 288px;
-  border: 0px solid #f17228;
-  box-sizing: border-box;
+#arrow {
+  background-color: white;
   border-radius: 30px;
-  background-color: aliceblue;
+  width: 60px;
+  height: 40px;
+  padding: 10px 20px;
 }
-.arrow span::content {
-  content: " \2192";
+#arrow img {
+  /* border: 2px solid #f17228; */
+  width: 26px;
+  height: 20px;
 }
