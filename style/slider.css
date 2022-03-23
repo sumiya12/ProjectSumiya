@@ -60,7 +60,7 @@
   top: 15.46px;
 }
 .arrow {
-  content: " \2192";
+  /* content: " \2192"; */
   position: absolute;
   width: 60px;
   height: 40px;
@@ -68,13 +68,17 @@
   top: 288px;
 }
 .arrow span {
-  content: " \2192";
+  z-index: 1;
+
   width: 60px;
   height: 40px;
   right: 120px;
   top: 288px;
-  border: 2px solid #f17228;
+  border: 0px solid #f17228;
   box-sizing: border-box;
   border-radius: 30px;
   background-color: aliceblue;
+}
+.arrow span::content {
+  content: " \2192";
 }

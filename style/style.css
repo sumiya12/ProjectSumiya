@@ -81,7 +81,6 @@
   position: relative;
   align-items: center;
   color: #f17228;
-  
 }
 .login-busket div {
   padding: 18px;
@@ -104,7 +103,7 @@
 }
 
 .mainContent {
-  max-width: 1500px;
+  max-width: 1440px;
   margin: auto;
   padding: 20px;
 }

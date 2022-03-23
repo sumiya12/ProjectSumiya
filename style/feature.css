@@ -7,25 +7,24 @@
   );
 }
 .container-feature {
-  max-width: 1500px;
+  max-width: 1440px;
   margin: auto;
   padding: 20px;
   height: 248px;
   left: 0px;
   top: 552px;
-  
 }
 .sub-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-direction: row;
   align-items: center;
   background: rgba(255, 255, 255, 0.1);
-  /* button.sh */
-  padding: 15px;
+
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
   border-radius: 30px;
-
+  border-radius: 30px;
+  height: 150px;
 }
 .sub-container div p {
   display: inline;
@@ -59,7 +58,6 @@
 .feature-3 {
   display: flex;
 }
-.sub-container img{
-    margin: 0px 15px;
-    
+.sub-container img {
+  margin: 0px 15px;
 }
