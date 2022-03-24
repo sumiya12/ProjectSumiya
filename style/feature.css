@@ -5,12 +5,11 @@
     #f17228 -90.18%,
     rgba(255, 255, 255, 0) 41.19%
   );
-  padding: 48px 0px;
 }
 .container-feature {
   max-width: 1440px;
   margin: auto;
-  /* padding: 20px; */
+  padding: 20px;
   height: 248px;
   left: 0px;
   top: 552px;
@@ -21,9 +20,10 @@
   flex-direction: row;
   align-items: center;
   background: rgba(255, 255, 255, 0.1);
+
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
   border-radius: 30px;
-  /* border-radius: 30px; */
+  border-radius: 30px;
   height: 150px;
 }
 .sub-container div p {
@@ -33,10 +33,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
-  /* identical to box height */
-
   color: #1d1d1f;
-
   opacity: 0.75;
 }
 .sub-container div h3 {
@@ -49,54 +46,41 @@
 }
 .feature-1 {
   display: flex;
-  flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 15px;
 
   color: #1d1d1f;
 }
 .feature-2 {
-    display: flex;
-    flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 15px;
+  display: flex;
 }
 .feature-3 {
-    display: flex;
-    flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 15px;
+  display: flex;
+  /* margin: 0px 10px; */
 }
 .sub-container img {
-  margin: 0px 15px;
+  margin: 15px 15px;
+  width: 30px;
+  height: 30px;
+  /* justify-content: center; */
+  /* align-items: center; */
 }
-.img-feature img {
-  width: 40px;
-  align-items: center;
-  justify-content: center;
-  height: 40px;
+.img-feature {
+  width: 60px;
+  height: 60px;
   background: rgba(255, 215, 191, 0.28);
-border-radius: 10px;
-  /* background-color: aliceblue; */
+  border-radius: 10px;
+  margin: 0px 10px;
 }
-.img-feature-1 img {
-    width: 40px;
-    align-items: center;
-    justify-content: center;
-    height: 40px;
-    background: rgba(255, 215, 191, 0.28);
+.img-feature-1 {
+  width: 60px;
+  height: 60px;
+  background: rgba(255, 215, 191, 0.28);
   border-radius: 10px;
-    /* background-color: aliceblue; */
-  }
-  .img-feature-2 img {
-    width: 40px;
-    align-items: center;
-    justify-content: center;
-    height: 40px;
-    background: rgba(255, 215, 191, 0.28);
+  margin: 0px 10px;
+}
+.img-feature-2 {
+  width: 60px;
+  height: 60px;
+  background: rgba(255, 215, 191, 0.28);
   border-radius: 10px;
-    /* background-color: aliceblue; */
-  }
+  margin: 0px 10px;
+}

@@ -1,0 +1,13 @@
+.sales-title {
+  display: flex;
+  justify-content: space-between;
+}
+.container-sale {
+  max-width: 1440px;
+  margin: auto;
+}
+.sales span {
+  width: 11px;
+  height: 30px;
+  background: #f17228;
+}
