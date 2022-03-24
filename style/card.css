@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Poppins:wght@400;500;600;700&display=swap");
 .main-card {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 36px;
 }
 

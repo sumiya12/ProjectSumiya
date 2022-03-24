@@ -2,10 +2,12 @@
 .sales-title {
   display: flex;
   justify-content: space-between;
+  margin: 0px 50px;
 }
 .container-sale {
   max-width: 1440px;
   margin: auto;
+  /* margin: 10px; */
 }
 .sales {
   display: flex;
