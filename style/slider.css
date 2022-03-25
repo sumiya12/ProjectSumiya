@@ -4,6 +4,9 @@
   background-repeat: no-repeat;
   height: 496px;
 }
+.maincontainer {
+  height: 496px;
+}
 .slider-text {
   width: 383px;
   right: 222px;
@@ -70,4 +73,28 @@
   /* border: 2px solid #f17228; */
   width: 26px;
   height: 20px;
+}
+
+.container-sliders {
+  display: flex;
+  justify-content: center;
+  /* margin-top: 10px; */
+}
+.container-sliders #sliders {
+  width: 50px;
+  height: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.tom {
+  background: #f17228;
+  border-radius: 5px;
+  width: 21px;
+  height: 8px;
+}
+.jijig {
+  background: #fbc5a6;
+  border-radius: 5px;
+  width: 10px;
+  height: 8px;
 }
