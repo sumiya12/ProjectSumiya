@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Poppins:wght@400;500;600;700&display=swap");
 .sliderBackground {
-  background-image: url("/slider/base.png");
+  background-image: url("/pictures/pics/base.svg");
   background-repeat: no-repeat;
   height: 496px;
 }
