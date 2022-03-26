@@ -79,37 +79,45 @@
 #search {
   padding-left: 30px;
 }
-.login-busket {
+.login-busketcont {
   display: flex;
   position: relative;
   align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  width: 120px;
 }
-.login-busket div {
-  padding: 18px;
+.sub-con {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.sub-con div {
+  display: flex;
   font-style: normal;
   font-size: 14px;
   line-height: 14px;
   font-family: "Poppins", "sans-serif";
   font-weight: 500px;
   text-align: center;
+  padding-left: 10px;
 }
-.busket {
-  background-image: url(/pictures/logos/busket\ icon.svg);
-  background-repeat: no-repeat;
-  background-position: -1px;
-}
-.user-icon {
-  background-image: url(/pictures/logos/user\ icon.svg);
-  background-repeat: no-repeat;
-  background-position: -1px;
-}
+/* .login-busket {
+  padding: 10px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 14px;
+  font-family: "Poppins", "sans-serif";
+  font-weight: 500px;
+  text-align: center;
+} */
 
 .mainContent {
-  max-width: 1440px;
+  max-width: 1400px;
   margin: auto;
-  padding: 20px;
+  padding: 30px;
 }
-.login-busket a {
+.login-busketcont a {
   text-decoration: none;
   color: #f17228;
 }
@@ -117,7 +125,7 @@
   text-decoration: none;
   color: rgb(32, 31, 31);
 }
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
   .search {
     /* box-sizing: border-box; */
     position: relative;
@@ -125,15 +133,16 @@
     width: 32px;
     height: 32px;
     border: 1px solid #f17228;
-    background-image: url("/pictures/logos/search.svg");
+    background-image: url("/pictures/logos/search\ icon.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-position: 10px;
     align-items: center;
+    border: none;
     transition-delay: 250ms;
-    transition-duration: 2s;
+    transition-duration: 1s;
   }
-  .search:hover {
+  .search:focus {
     position: relative;
     border-radius: 10px;
     width: 150px;
@@ -146,5 +155,26 @@
     align-items: center;
     transition-delay: 250ms;
     transition-duration: 1s;
+    border: 1px #f17228 solid;
+  }
+  .sub-con div {
+    display: none;
+    padding: 20px;
+  }
+  .sub-con {
+    padding-right: 40px;
+  }
+  .login-busketcont {
+    /* width: 10px; */
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    /* padding: 20px; */
+  }
+  .header {
+    justify-content: space-around;
+    padding: 20px;
   }
 }
