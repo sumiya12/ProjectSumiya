@@ -72,3 +72,22 @@
   color: #171717;
   margin-left: 10px;
 }
+.card-hover {
+  width: 252px;
+  height: 208px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  background-color: #00000080;
+  border-radius: 10px;
+  opacity: 0;
+  z-index: 1;
+}
+.card-hover img {
+  width: 60px;
+  /* height: 60px; */
+}
+.card-hover:hover {
+  opacity: 1;
+  transition: opacity 1s;
+}

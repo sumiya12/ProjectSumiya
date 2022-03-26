@@ -63,11 +63,16 @@
   top: 15.46px;
 }
 #arrow {
-  background-color: white;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 0px 10px rgba(251, 197, 166, 0.2);
+  /* border-radius: 30px; */
   border-radius: 30px;
   width: 60px;
   height: 40px;
   padding: 10px 20px;
+}
+#arrow:hover {
+  background: rgba(221, 220, 220, 0.5);
 }
 #arrow img {
   /* border: 2px solid #f17228; */

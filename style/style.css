@@ -60,6 +60,9 @@
   font-weight: 700;
   font-weight: bold;
 }
+.menu-1 {
+  color: #f17228;
+}
 .search {
   box-sizing: border-box;
   position: relative;
@@ -67,7 +70,7 @@
   width: 235px;
   height: 32px;
   border: 1px solid #f17228;
-  background-image: url("/header/.png");
+  background-image: url("/header/.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-position: 10px;
@@ -91,12 +94,12 @@
   text-align: center;
 }
 .busket {
-  background-image: url(/header/busket\ icon.png);
+  background-image: url(/header/busket\ icon.svg);
   background-repeat: no-repeat;
   background-position: -1px;
 }
 .user-icon {
-  background-image: url(/header/user\ icon.png);
+  background-image: url(/header/user\ icon.svg);
   background-repeat: no-repeat;
   background-position: -1px;
 }
@@ -113,4 +116,35 @@
 .login-busket a:hover {
   text-decoration: none;
   color: rgb(32, 31, 31);
+}
+@media (max-width: 1100px) {
+  .search {
+    /* box-sizing: border-box; */
+    position: relative;
+    border-radius: 10px;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #f17228;
+    background-image: url("/header/.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 10px;
+    align-items: center;
+    transition-delay: 250ms;
+    transition-duration: 2s;
+  }
+  .search:hover {
+    position: relative;
+    border-radius: 10px;
+    width: 150px;
+    height: 32px;
+    border: 1px solid #f17228;
+    background-image: url("/header/.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 10px;
+    align-items: center;
+    transition-delay: 250ms;
+    transition-duration: 1s;
+  }
 }
