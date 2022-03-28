@@ -19,12 +19,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  /* padding: 10px; */
 }
 .sales span {
   width: 11px;
   height: 30px;
   background-color: #f17228;
   border: 1px solid #f17228;
+  /* padding: 10px; */
   /* margin: 0px 10px; */
 }
 .sales h3 {
@@ -36,6 +38,7 @@
   display: flex;
   /* align-items: center; */
   color: #171717;
+  padding: 10px;
 }
 .register input {
   background: #ffffff;
