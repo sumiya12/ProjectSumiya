@@ -3,17 +3,29 @@
   box-sizing: border-box;
   margin: 0%;
 }
+.outside {
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+  /* padding: 30px; */
+}
 .header {
+  /* position: fixed; */
+
   border: 0px solid black;
   display: flex;
   height: 56px;
-  max-width: 100%;
-  margin: 0%;
+
   background: #ffffff;
   box-shadow: 0px 2px 4px rgba(241, 114, 40, 0.05);
   justify-content: space-between;
   align-items: center;
 }
+/* .header .mainContent {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+} */
 .container-logo {
   display: flex;
   text-align: center;
@@ -85,7 +97,7 @@
   align-items: center;
   justify-content: space-between;
   text-align: center;
-  width: 120px;
+  /* width: 120px; */
 }
 .sub-con {
   display: flex;
@@ -102,9 +114,18 @@
   text-align: center;
   padding-left: 10px;
 }
+.logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.logos div {
+  padding: 10px;
+}
 
 .mainContent {
-  max-width: 1400px;
+  max-width: 1440px;
   margin: auto;
   padding: 30px;
 }
@@ -132,6 +153,10 @@
     border: none;
     transition-delay: 250ms;
     transition-duration: 1s;
+  }
+  .logos {
+    display: flex;
+    justify-content: space-between;
   }
   .search:focus {
     position: relative;
@@ -167,5 +192,10 @@
   .header {
     justify-content: space-around;
     padding: 20px;
+  }
+  .mainContent {
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px;
   }
 }
