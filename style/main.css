@@ -314,6 +314,54 @@
   .feature-3 {
     padding: 10px;
   }
+  .slider-text {
+    width: 157px;
+    height: 60px;
+    right: 222px;
+    line-height: 10px;
+  }
+  .slider-text h2 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 120%;
+    color: #f17228;
+    padding-bottom: 20px;
+  }
+  .pic div img {
+    display: flex;
+    position: relative;
+    width: 250px;
+    height: 250px;
+  }
+  .pic-1 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 80px;
+    z-index: 1;
+    top: 80.54px;
+  }
+  .pic-2 {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    left: 5.93px;
+    top: 65.46px;
+  }
+
+  .slider p {
+    font-family: "Comfortaa";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.01em;
+  }
 }
 /* .see-all {
   font-family: "Poppins";
